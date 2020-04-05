@@ -46,7 +46,7 @@ const Home = () => {
   return (
     <div className="body-wrapper">
       <Head>
-        <title>Next PWA Test</title>
+        
         <link rel="icon" href="/favicon.ico" />
 
         <meta charSet='utf-8' />
@@ -78,48 +78,6 @@ const Home = () => {
         <meta property="og:description" content="I'm a Portuguese web developer that loves software architecture." />
 
       </Head>
-
-      <noscript>
-        <h1>Marco Afonso  <em>Web Developer</em></h1>
-        <h2>I love web appplications architecture based on Node, React and HTML5</h2>
-        <h3>Personal Projects</h3>
-        <ul className="circled">
-
-            <li>db2graphql - Generate a Graphql schema and resolvers from relational database
-                <a target="_blank" href="https://github.com/taviroquai/db2graphql">(code)</a>
-            </li>
-
-            <li>FullstackJS - JS framework featuring Graphql authorization
-                <a target="_blank" href="https://github.com/taviroquai/fullstack-js">(code)</a>
-            </li>
-
-            <li>React Observable Store - global store to manage React application state
-                <a target="_blank" href="https://github.com/taviroquai/ReactObservableStore">(code)</a>
-            </li>
-
-            <li>MapIgniter 2 - a web mapping framework powered by Laravel 5, OpenLayers3 and AngularJS
-                <a target="_blank" href="https://github.com/taviroquai/mapigniter2">(code)</a>
-            </li>
-
-            <li>OSS-IEM - An Independent Evaluation Model for Open-source Software
-                <a target="_blank" href="https://github.com/taviroquai/OSS-Independent-Evaluation-Model">(draft)</a>
-            </li>
-            
-            <li>More...
-                <a target="_blank" href="https://github.com/taviroquai">(code)</a>
-            </li>
-        </ul>
-        <h3>About Me</h3>
-        <p className="lead">Balancing between reduccionism and holism...</p>
-        <p>Hello, my name is Marco Afonso. A portuguese born to create things.</p>
-        <p>Since kid, I always liked to compose things using Lego, or programming with Basic language in ZX Spectrum 128K, now develop software, more specifically web applications.</p>
-        <p>I'm quite confortable with latest technologies like, LAMP stack or NodeJS + frontend libs/frameworks like jQuery and React.</p>
-        <p>More important than technologies, is the architeture of the projects. I'm always looking for the best software design to achieve readability and maintainability.
-        <br />From readability and maintainability, any project can grow in security, optimization and performance.</p>
-        <p>Anyway, there are some tools that I could not left behind like Git and VSCode editor with some crucial packages.</p>
-        <p>I'm living and working in Tavira, Portugal at local council, also creating web apps and giving support to desktop users.</p>
-        <p>Thanks for the visit! :)</p>
-      </noscript>
         
       <NavBar
         sections={sections}

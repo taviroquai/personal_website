@@ -33,7 +33,7 @@ export default function SectionAbout() {
               optimization and performance aspects.
             </p>
 
-            <p>Anyway, there are some tools that I could not left behind like Git and VSCode editor
+            <p>Anyway, there are some tools that I could not leave behind like Git and VSCode editor
               with some crucial packages.
             </p>
 
