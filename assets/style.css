@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Raleway';
+  src: local('RaleWay'), url(./fonts/Raleway/Raleway-ExtraLightItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: local('Libre Baskerville'), url(./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf) format('ttf');
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse.collapse {
+    display: none;
+    height: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+  }
+}
