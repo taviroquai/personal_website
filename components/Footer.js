@@ -9,7 +9,7 @@ export default ({ links }) => (
 
     <ul className="social pull-right">
       { links.map((l, i) => (
-        <li key={i}><a target="_blank" href={l.href}><i className={l.icon}></i></a></li>
+        <li key={i}><a rel="noreferrer" target="_blank" href={l.href}><i className={l.icon}></i></a></li>
       ))}
     </ul>
 

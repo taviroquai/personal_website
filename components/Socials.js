@@ -10,7 +10,7 @@ export default function Socials({ close, links }) {
       <div className="divide20"></div>
       <ul className="social">
         { links.map((l, i) => (
-          <li key={i}><a target="_blank" href={l.href}><i className={l.icon}></i></a></li>
+          <li key={i}><a rel="noreferrer" target="_blank" href={l.href}><i className={l.icon}></i></a></li>
         ))}
       </ul>
     </div>
